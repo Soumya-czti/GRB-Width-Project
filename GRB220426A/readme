@@ -1,1 +1,4 @@
+Width evolution graph has been plotted for this GRB.
+We got 11 time stamps through bayesian analysis out which 10 were used to plot the graph.
+There was some problem with the file of the 4th time stamp, it was giving errors while loading for spectral fitting and I could not get errors for the width corresponding to 9th time stamp (it kept going into that endless loop).
 
