@@ -1,0 +1,49 @@
+#XSPEC version: 12.14.0h
+#Build Date/Time: Tue Jul  2 01:58:43 2024
+#
+!XSPEC12> show par
+#
+#Parameters defined:
+#========================================================================
+#Model bandw<1> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   bandw      alpha               0.130308     +/-  7.11890E-02  
+#   2    1   bandw      width               0.731381     +/-  1.21455E-02  
+#   3    1   bandw      Ep         keV      89.9406      +/-  1.78364      
+#   4    1   bandw      norm                3.15511      +/-  0.391817     
+#                           Data group: 2
+#   5    1   bandw      alpha               0.130308     = p1
+#   6    1   bandw      width               0.731381     = p2
+#   7    1   bandw      Ep         keV      89.9406      = p3
+#   8    1   bandw      norm                3.04031      +/-  0.378456     
+#                           Data group: 3
+#   9    1   bandw      alpha               0.130308     = p1
+#  10    1   bandw      width               0.731381     = p2
+#  11    1   bandw      Ep         keV      89.9406      = p3
+#  12    1   bandw      norm                2.94219      +/-  0.364380     
+#                           Data group: 4
+#  13    1   bandw      alpha               0.130308     = p1
+#  14    1   bandw      width               0.731381     = p2
+#  15    1   bandw      Ep         keV      89.9406      = p3
+#  16    1   bandw      norm                2.78113      +/-  0.347114     
+#________________________________________________________________________
+#
+#
+!XSPEC12> err 1-4
+# Parameter   Confidence Range (2.706)
+#     1    0.0169166       0.2593    (-0.113391,0.128992)
+#***Warning:  *** 3 point fit failed during interpolation *** 
+#Lower bound error calculation is invalid.
+#     2     0.712539     0.753311    (-0.0188418,0.0219299)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 92.9424, 93.027
+#and delta stat 2.55929, 2.71609
+#but latest trial 93.0204 gives 2.85343
+#Suggest that you check this result using the steppar command.
+#     3      86.6573      92.9847    (-3.2833,3.04407)
+#     4      2.58194      3.97702    (-0.573162,0.821911)
+#
+!XSPEC12> log none
+#

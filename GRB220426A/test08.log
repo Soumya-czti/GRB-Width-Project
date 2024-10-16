@@ -1,0 +1,62 @@
+#XSPEC version: 12.14.0h
+#Build Date/Time: Tue Jul  2 01:58:43 2024
+#
+!XSPEC12> show par
+#
+#Parameters defined:
+#========================================================================
+#Model bandw<1> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   bandw      alpha               0.196971     +/-  6.66250E-02  
+#   2    1   bandw      width               0.707503     +/-  7.50604E-03  
+#   3    1   bandw      Ep         keV      109.506      +/-  2.55801      
+#   4    1   bandw      norm                4.61547      +/-  0.526563     
+#                           Data group: 2
+#   5    1   bandw      alpha               0.196971     = p1
+#   6    1   bandw      width               0.707503     = p2
+#   7    1   bandw      Ep         keV      109.506      = p3
+#   8    1   bandw      norm                4.42811      +/-  0.493245     
+#                           Data group: 3
+#   9    1   bandw      alpha               0.196971     = p1
+#  10    1   bandw      width               0.707503     = p2
+#  11    1   bandw      Ep         keV      109.506      = p3
+#  12    1   bandw      norm                4.33458      +/-  0.483769     
+#                           Data group: 4
+#  13    1   bandw      alpha               0.196971     = p1
+#  14    1   bandw      width               0.707503     = p2
+#  15    1   bandw      Ep         keV      109.506      = p3
+#  16    1   bandw      norm                3.82206      +/-  0.441791     
+#________________________________________________________________________
+#
+#
+!XSPEC12> err 1-4
+# Parameter   Confidence Range (2.706)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.196971, -0.0222241
+#and delta stat 0, 11.8733
+#but latest trial 0.0923282 gives 16.4151
+#Suggest that you check this result using the steppar command.
+#     1    0.0873734     0.337275    (-0.109597,0.140304)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.707513, 0.682818
+#and delta stat 0, 5.81079
+#but latest trial 0.690661 gives 16.4809
+#Suggest that you check this result using the steppar command.
+#     2     0.695165     0.730388    (-0.0123577,0.0228647)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 111.26, 113.713
+#and delta stat 1.23302, 16.5399
+#but latest trial 111.674 gives 0.852718
+#Suggest that you check this result using the steppar command.
+#     3      104.565      112.487    (-4.94253,2.97929)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 3.91611, 3.73978
+#and delta stat 2.182, 4.2661
+#but latest trial 3.86645 gives 12.508
+#Suggest that you check this result using the steppar command.
+#     4      3.82794      5.85584    (-0.452494,1.57541)
+#
+!XSPEC12> log none
+#

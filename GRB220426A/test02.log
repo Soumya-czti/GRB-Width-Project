@@ -1,0 +1,42 @@
+#XSPEC version: 12.14.0h
+#Build Date/Time: Tue Jul  2 01:58:43 2024
+#
+!XSPEC12> show par
+#
+#Parameters defined:
+#========================================================================
+#Model bandw<1> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   bandw      alpha               0.419357     +/-  2.62598E-02  
+#   2    1   bandw      width               0.749695     +/-  1.54502E-02  
+#   3    1   bandw      Ep         keV      180.795      +/-  2.22038      
+#   4    1   bandw      norm                2.16615      +/-  7.95858E-02  
+#                           Data group: 2
+#   5    1   bandw      alpha               0.419357     = p1
+#   6    1   bandw      width               0.749695     = p2
+#   7    1   bandw      Ep         keV      180.795      = p3
+#   8    1   bandw      norm                2.04569      +/-  7.43667E-02  
+#                           Data group: 3
+#   9    1   bandw      alpha               0.419357     = p1
+#  10    1   bandw      width               0.749695     = p2
+#  11    1   bandw      Ep         keV      180.795      = p3
+#  12    1   bandw      norm                1.98137      +/-  7.18387E-02  
+#                           Data group: 4
+#  13    1   bandw      alpha               0.419357     = p1
+#  14    1   bandw      width               0.749695     = p2
+#  15    1   bandw      Ep         keV      180.795      = p3
+#  16    1   bandw      norm                1.89833      +/-  7.04466E-02  
+#________________________________________________________________________
+#
+#
+!XSPEC12> err 1-4
+# Parameter   Confidence Range (2.706)
+#     1     0.372694     0.469153    (-0.0466671,0.0497922)
+#     2     0.724616     0.781495    (-0.0250802,0.0317982)
+#     3      176.389      185.098    (-4.40562,4.30376)
+#     4      2.02626      2.32773    (-0.139896,0.161575)
+#
+!XSPEC12> log none
+#

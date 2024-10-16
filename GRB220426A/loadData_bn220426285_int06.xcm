@@ -1,0 +1,12 @@
+data 1:1 bn220426285_n0_srcspectra.pha{6} 
+back 1 bn220426285_n0_bkgspectra.bak{6} 
+resp 1 bn220426285_n0_weightedrsp.rsp{6} 
+data 2:2 bn220426285_n1_srcspectra.pha{6} 
+back 2 bn220426285_n1_bkgspectra.bak{6} 
+resp 2 bn220426285_n1_weightedrsp.rsp{6} 
+data 3:3 bn220426285_n2_srcspectra.pha{6} 
+back 3 bn220426285_n2_bkgspectra.bak{6} 
+resp 3 bn220426285_n2_weightedrsp.rsp{6} 
+data 4:4 bn220426285_na_srcspectra.pha{6} 
+back 4 bn220426285_na_bkgspectra.bak{6} 
+resp 4 bn220426285_na_weightedrsp.rsp{6} 

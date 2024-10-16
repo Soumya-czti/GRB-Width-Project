@@ -1,0 +1,151 @@
+#XSPEC version: 12.14.0h
+#Build Date/Time: Tue Jul  2 01:58:43 2024
+#
+!XSPEC12> show par
+#
+#Parameters defined:
+#========================================================================
+#Model bandw<1> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   bandw      alpha               0.262828     +/-  2.56036E-02  
+#   2    1   bandw      width               0.693050     +/-  2.62177E-03  
+#   3    1   bandw      Ep         keV      124.015      +/-  1.23385      
+#   4    1   bandw      norm                5.33820      +/-  0.227734     
+#                           Data group: 2
+#   5    1   bandw      alpha               0.262828     = p1
+#   6    1   bandw      width               0.693050     = p2
+#   7    1   bandw      Ep         keV      124.015      = p3
+#   8    1   bandw      norm                5.04602      +/-  0.209620     
+#                           Data group: 3
+#   9    1   bandw      alpha               0.262828     = p1
+#  10    1   bandw      width               0.693050     = p2
+#  11    1   bandw      Ep         keV      124.015      = p3
+#  12    1   bandw      norm                4.91942      +/-  0.205627     
+#                           Data group: 4
+#  13    1   bandw      alpha               0.262828     = p1
+#  14    1   bandw      width               0.693050     = p2
+#  15    1   bandw      Ep         keV      124.015      = p3
+#  16    1   bandw      norm                4.63874      +/-  0.192569     
+#________________________________________________________________________
+#
+#
+!XSPEC12> err 1-4
+# Parameter   Confidence Range (2.706)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.235343, 0.220711
+#and delta stat 0.472772, 6.354
+#but latest trial 0.228577 gives 0.425048
+#Suggest that you check this result using the steppar command.
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.304946, 0.306675
+#and delta stat 2.55111, 2.81217
+#but latest trial 0.305982 gives 2.53647
+#Suggest that you check this result using the steppar command.
+#     1     0.228027     0.305811    (-0.0350621,0.042722)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.690609, 0.689957
+#and delta stat 2.35299, 32.626
+#but latest trial 0.690596 gives 40.2006
+#Suggest that you check this result using the steppar command.
+#                                   Parameters
+#PG-Statistic |beta|/N    Lvl       1:alpha       2:width          3:Ep        4:norm        8:norm       12:norm       16:norm
+#547.081      54.7095       1      0.254460      0.694391       124.407       5.26480       4.97708       4.85100       4.57631
+#================================================================================
+# Variances and Principal Axes
+#                 1        2        3        4        8       12       16  
+# 7.4891E-06| -0.0863   0.9962  -0.0022  -0.0034  -0.0096   0.0004  -0.0015  
+# 3.1452E-05|  0.9926   0.0853  -0.0085  -0.0314  -0.0507  -0.0547  -0.0289  
+# 3.0586E-03|  0.0141  -0.0046   0.0116  -0.0813  -0.5300   0.8380  -0.0995  
+# 4.0839E-03| -0.0185  -0.0054   0.0049   0.4048  -0.6379  -0.2945   0.5850  
+# 4.9026E-03| -0.0075  -0.0003  -0.0064   0.7248  -0.1185  -0.0844  -0.6734  
+# 2.4226E-02|  0.0810   0.0149   0.2415   0.5352   0.5294   0.4327   0.4255  
+# 1.5388E+00|  0.0118   0.0006  -0.9703   0.1298   0.1235   0.1172   0.1123  
+#--------------------------------------------------------------------------------
+#
+#====================================================================================
+#  Covariance Matrix
+#        1           2           3           4           5           6           7   
+#   4.062e-04   4.327e-05  -1.713e-02   3.343e-03   3.308e-03   3.036e-03   2.848e-03
+#   4.327e-05   1.389e-05  -8.776e-04   3.138e-04   3.358e-04   2.677e-04   2.550e-04
+#  -1.713e-02  -8.776e-04   1.450e+00  -1.906e-01  -1.813e-01  -1.725e-01  -1.652e-01
+#   3.343e-03   3.138e-04  -1.906e-01   3.612e-02   3.018e-02   2.802e-02   2.654e-02
+#   3.308e-03   3.358e-04  -1.813e-01   3.018e-02   3.285e-02   2.729e-02   2.583e-02
+#   3.036e-03   2.677e-04  -1.725e-01   2.802e-02   2.729e-02   2.822e-02   2.404e-02
+#   2.848e-03   2.550e-04  -1.652e-01   2.654e-02   2.583e-02   2.404e-02   2.745e-02
+#------------------------------------------------------------------------------------
+#
+#========================================================================
+#Model bandw<1> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   bandw      alpha               0.254460     +/-  2.01540E-02  
+#   2    1   bandw      width               0.694391     +/-  3.72728E-03  
+#   3    1   bandw      Ep         keV      124.407      +/-  1.20417      
+#   4    1   bandw      norm                5.26480      +/-  0.190045     
+#                           Data group: 2
+#   5    1   bandw      alpha               0.254460     = p1
+#   6    1   bandw      width               0.694391     = p2
+#   7    1   bandw      Ep         keV      124.407      = p3
+#   8    1   bandw      norm                4.97708      +/-  0.181253     
+#                           Data group: 3
+#   9    1   bandw      alpha               0.254460     = p1
+#  10    1   bandw      width               0.694391     = p2
+#  11    1   bandw      Ep         keV      124.407      = p3
+#  12    1   bandw      norm                4.85100      +/-  0.167983     
+#                           Data group: 4
+#  13    1   bandw      alpha               0.254460     = p1
+#  14    1   bandw      width               0.694391     = p2
+#  15    1   bandw      Ep         keV      124.407      = p3
+#  16    1   bandw      norm                4.57631      +/-  0.165668     
+#________________________________________________________________________
+#
+#
+#Fit statistic  : PG-Statistic                 103.16     using 107 bins, spectrum 1, group 1.
+#                 PG-Statistic                 154.02     using 107 bins, spectrum 2, group 2.
+#                 PG-Statistic                 165.76     using 107 bins, spectrum 3, group 3.
+#                 PG-Statistic                 124.14     using 107 bins, spectrum 4, group 4.
+#Total fit statistic                           547.08     with 421 d.o.f.
+#
+#Test statistic : Chi-Squared                17093.92     using 428 bins.
+# Null hypothesis probability of 0.00e+00 with 421 degrees of freedom
+#***Warning: New best fit found, fit parameters will be set to new values.
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.25446, 0.221306
+#and delta stat 0, 2.79147
+#but latest trial 0.221818 gives 5.26234
+#Suggest that you check this result using the steppar command.
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.301586, 0.301952
+#and delta stat 2.58037, 2.75088
+#but latest trial 0.301808 gives 2.4474
+#Suggest that you check this result using the steppar command.
+#     1     0.237883     0.301769    (-0.0165799,0.0473059)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.692826, 0.688381
+#and delta stat 0.166173, 35.7951
+#but latest trial 0.692051 gives 48.9385
+#Suggest that you check this result using the steppar command.
+#     2     0.690603     0.702519    (-0.00380646,0.00810949)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 124.407, 122.035
+#and delta stat 0, 2.83147
+#but latest trial 122.445 gives 5.49332
+#Suggest that you check this result using the steppar command.
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 126.039, 126.184
+#and delta stat 2.17729, 3.00533
+#but latest trial 126.137 gives 1.11243
+#Suggest that you check this result using the steppar command.
+#     3      123.221      126.112    (-1.18605,1.7048)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 5.1336, 4.95219
+#and delta stat 1.15009, 15.3606
+#but latest trial 5.09945 gives 0.324559
+#Suggest that you check this result using the steppar command.
+#     4      5.04289      5.72881    (-0.221913,0.464009)
+#
+!XSPEC12> log none
+#
