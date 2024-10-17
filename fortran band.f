@@ -5,7 +5,7 @@
 
 Cf2py  intent(in) EAR
 Cf2py  intent(in) alp     
-Cf2py  intent(in) wd
+Cf2py  intent(in) beta
 Cf2py  intent(in) ebr
 Cf2py  intent(in) k
 Cf2py  intent(out) PHOTAR   
