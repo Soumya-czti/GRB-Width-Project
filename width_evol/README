@@ -1,0 +1,6 @@
+#README 
+
+Main python code to generate all spectrum: band_new_test.py
+model from Fortran to 3ML: python -m numpy.f2py -c -m bandn bandn_model_3ml.f
+model used to test things: 1)python -m numpy.f2py -c -m bandn bandn_py.f 
+                           2)python -m numpy.f2py -c -m band band_py.f
