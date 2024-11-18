@@ -1,1 +1,7 @@
+GRB230812790.ipynb file has data for significant time bins and its corresponding significance.
+There are total 18 bins having significance greater than 30.
+Time resolved files has been generated and uploaded for time intervals having significance greater than 30.
+While generating time resolved files. Background interval is chosen as -100--20,20-100.
+
+
 
