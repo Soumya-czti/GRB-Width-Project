@@ -1,0 +1,12 @@
+data 1:1 /home/rishabh/Documents/bn230812790/spec/bn230812790_n0_srcspectra.pha{1} 
+back 1 /home/rishabh/Documents/bn230812790/spec/bn230812790_n0_bkgspectra.bak{1} 
+resp 1 /home/rishabh/Documents/bn230812790/spec/bn230812790_n0_weightedrsp.rsp{1} 
+data 2:2 /home/rishabh/Documents/bn230812790/spec/bn230812790_n3_srcspectra.pha{1} 
+back 2 /home/rishabh/Documents/bn230812790/spec/bn230812790_n3_bkgspectra.bak{1} 
+resp 2 /home/rishabh/Documents/bn230812790/spec/bn230812790_n3_weightedrsp.rsp{1} 
+data 3:3 /home/rishabh/Documents/bn230812790/spec/bn230812790_n6_srcspectra.pha{1} 
+back 3 /home/rishabh/Documents/bn230812790/spec/bn230812790_n6_bkgspectra.bak{1} 
+resp 3 /home/rishabh/Documents/bn230812790/spec/bn230812790_n6_weightedrsp.rsp{1} 
+data 4:4 /home/rishabh/Documents/bn230812790/spec/bn230812790_n7_srcspectra.pha{1} 
+back 4 /home/rishabh/Documents/bn230812790/spec/bn230812790_n7_bkgspectra.bak{1} 
+resp 4 /home/rishabh/Documents/bn230812790/spec/bn230812790_n7_weightedrsp.rsp{1} 
